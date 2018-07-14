@@ -1,9 +1,9 @@
 const Twitter = require('twit');
 const client = new Twitter({
-  consumer_key: 'R2uYUT7xKMy7YiG0IVgHjdDZE',
-  consumer_secret: 'gD0Bv9b1tm9njjqYVGqdCLFpc0vUTIsMCoVW325INw5zO5WO6o',
-  access_token: '1480602108-rfr9Zrb9y35znek05uHlOynRBlUGXJjI5UxCa7o',
-  access_token_secret: 'NuSSbo3ltvLAbv22udv9qb3Ib2FFKz9AoZOGMIM9CleRm'
+  consumer_key: '',
+  consumer_secret: '',
+  access_token: '-',
+  access_token_secret: ''
 });
 const {
   MoleculerError
