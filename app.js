@@ -51,6 +51,7 @@ const svc = broker.createService({
       // Call after `broker.call` and before send back the response
       onAfterCall(ctx, route, req, res, data) {
         res.setHeader("X-Custom-Header", "SIPA-Twitter-Client");
+	return data;
       },
 
       // Route error handler
